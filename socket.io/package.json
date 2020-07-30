@@ -1,5 +1,5 @@
 {
-  "name": "learning-socket.io",
+  "name": "socket.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,14 +13,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/china555/Learning-Socket.io.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/china555/Learning-Socket.io/issues"
-  },
-  "homepage": "https://github.com/china555/Learning-Socket.io#readme"
+  "license": "ISC"
 }

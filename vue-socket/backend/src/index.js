@@ -7,8 +7,6 @@ const server = require("http").createServer(app);
 const io = require("socket.io")(server);
 
 io.on("connection", (socket) => {
-  //   socket.broadcast.emit("connect");
-  //   console.log("Hello");
   socket.on("join", (data) => {
     console.log(data);
     socket.join(data.room);

@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="name-area">
-      <div class="name">
-        awdawdawd
-      </div>
+      <div class="name">awdawdawd</div>
     </div>
     <ul id="messages"></ul>
     <form action>
